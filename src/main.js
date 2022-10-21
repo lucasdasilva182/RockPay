@@ -107,7 +107,7 @@ function updateCardNumber(number){
     ccNumber.innerText = number.length === 0 ? '1234 5678 9012 3456' : number;
 }
 
-//CVV - FILL VALUES
+//CVC - FILL VALUES
 securityCodeMasked.on('accept', () =>{
     updateSecurityCode(securityCodeMasked.value)
 })

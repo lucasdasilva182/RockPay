@@ -77,12 +77,12 @@
   border-radius: 4px;
 }
 
-.cc .label {
+.cc .label, .cc-back .label {
   font-size: 1rem;
   line-height: 1.2rem;
 }
 
-.cc .value {
+.cc .value, .cc-back .value {
   font-size: 1.4rem;
   font-weight: bold;
   color: #ffffff;
