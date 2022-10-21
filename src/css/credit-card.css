@@ -1,5 +1,30 @@
+
+.flip-container {
+  width: 36rem;
+  height: 23rem;
+  perspective: 1000px;
+}
+
+.flip-container.ativo .flipper{
+	transform: rotateY(180deg);
+}
+
+.flipper{
+	width: 100%;
+	height: 100%;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+  position: relative;
+}
+
 /* CC */
-.cc {
+.cc-back {
+  transform: rotateY(180deg);
+  align-items: flex-end;
+  justify-content: flex-end !important;
+  padding: 3rem 10rem !important;
+}
+.cc, .cc-back {
   background: no-repeat center/cover;
   background-image: url("/cc-bg.svg");
   width: 36rem;
@@ -9,6 +34,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: absolute;
+  backface-visibility: hidden;
 }
 
 .cc-logo {
@@ -33,10 +60,21 @@
 }
 
 .cc-holder,
-.cc-expiration,
+.cc-expiration {
+  display: grid;
+  gap: 0.4rem;
+}
+
 .cc-security {
   display: grid;
   gap: 0.4rem;
+  justify-content: space-around;
+}
+
+.cc-security .value{
+  background: rgba(255, 255, 255, .2);
+  padding: .3rem;
+  border-radius: 4px;
 }
 
 .cc .label {
@@ -58,13 +96,14 @@
   align-items: center;
 }
 
-.cc,
+/* .cc,
+.cc-back, */
 .cc-logo,
 .cc-number {
   position: relative;
 }
 
-.cc-bg {
+.cc-bg, .cc-bg-back{
   position: absolute;
   inset: 0;
   z-index: 0;

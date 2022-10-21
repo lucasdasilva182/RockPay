@@ -39,7 +39,7 @@
     grid-area: A;
   }
 
-  #app section.cc {
+  #app .flip-container {
     grid-area: B;
     align-self: center;
   }
