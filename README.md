@@ -1,8 +1,4 @@
-<h1 align="center"> Explorer Lab #01 </h1>
-
-<p align="center">
-Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
-</p>
+<h1 align="center"> RocketPay</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -40,4 +36,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by [Lucas Silva](https://github.com/lucasilva182) com Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com ♥ by [Lucas Silva](https://github.com/lucasilva182) com Rocketseat :wave:
